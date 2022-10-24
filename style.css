@@ -1,0 +1,53 @@
+h1, h2  {
+  font-family: 'Cantarell', sans-serif;
+}
+
+.h2-title  {
+  font-family: 'Train One', cursive;
+}
+
+@media screen and (min-width: 992px) {
+  
+  .aside-fixed  {
+    position: fixed;
+  }
+  
+}
+
+footer  {
+  background-color: #BCD379;
+}
+
+.article-video  {
+  height: 270px;
+}
+
+@media screen and (min-width: 576px) {
+  .article-video  {
+    height: 290px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .article-video  {
+    height: 372px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .article-video  {
+    height: 328px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-video  {
+    height: 395px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .article-video  {
+    height: 463px;
+  }
+}
