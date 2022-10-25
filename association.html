@@ -138,21 +138,31 @@
         </article>
         <article class="py-2 ps-3 pe-2 mb-3 mt-5 bg-warning bg-opacity-10 border border-warning rounded" id="don">
           <h2>Faites un don pour l'association</h2>
-          <form method="post" action="action.php" class="col rounded-2 m-1 m-md-auto p-3 mb-5">
+          <form method="post" action="action.php" class="col rounded-2 m-1 m-md-auto p-3 mb-3">
 
             <div class=" mt-3 ps-3">
               <p class="mb-1 fw-bold">A quelle fréquence souhaitez-vous donner ?</p>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="don" id="don-unique" value="1">
-                <label class="form-check-label" for="don-unique">Une seule fois</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="don" id="don-mensuel" value="2">
-                <label class="form-check-label" for="don-mensuel">Don mensuel</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="don" id="don-patronne" value="3">
-                <label class="form-check-label" for="don-patron">Voyez avec la patronne</label>
+              <div class="d-flex justify-content-evenly">
+                <div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="don" id="don-unique" value="1">
+                    <label class="form-check-label" for="don-unique">Une seule fois</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="don" id="don-mensuel" value="2">
+                    <label class="form-check-label" for="don-mensuel">Don mensuel</label>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="don" id="don-true" value="3">
+                    <label class="form-check-label" for="don-true">J'ai déjà donné</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="don" id="don-false" value="3">
+                    <label class="form-check-label" for="don-false">Peut-être l'an prochain</label>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -183,20 +193,23 @@
                     <label class="form-check-label" for="don-50">50 €</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="montant" id="don-other" value="99">
-                    <label class="form-check-label" for="don-other">Autre</label>
+                    <input class="form-check-input" type="radio" name="montant" id="don-dollars" value="99">
+                    <label class="form-check-label" for="don-dollars">Don en dollars</label>
                   </div>
                 </div>
                 <div>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="montant" id="don-15" value="15">
-                    <label class="form-check-label" for="don-10">15 €</label>
+                    <label class="form-check-label" for="don-15">15 €</label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="montant" id="don-75" value="75">
-                    <label class="form-check-label" for="don-50">75 €</label>
+                    <label class="form-check-label" for="don-75">75 €</label>
                   </div>
-
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="montant" id="don-999" value="999">
+                    <label class="form-check-label" for="don-999">En nature</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -282,7 +295,12 @@
 
               </div>
             </div>
-
+            <div class="form-check ms-3 mt-4">
+              <input class="form-check-input" type="checkbox" value="" name="attestation" id="attestation">
+              <label class="form-check-label" for="attestation">
+                Je souhaite avoir une attestation fiscale pour ma double-comptabilité.
+              </label>
+            </div>
           </form>
           <p class="fs-5 ps-4">Nous n'acceptons pas les chèques sans provision 😆</p>
         </article>
