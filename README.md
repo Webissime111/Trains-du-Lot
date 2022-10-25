@@ -4,4 +4,4 @@
 
 <img src="https://github.com/Webissime111/Trains-du-Lot/blob/master/image/Logo-train.png" alt="Page d'accueil du site" title="Page d'accueil du site" width="25%">
 
-<p align="center"><a href="https://webissime111.github.io/Trains-du-Lot/">Visualiser le projet</a></p>
+<p align="center"><a href="https://webissime111.github.io/Trains-du-Lot/" target="_blank">Visualiser le projet</a></p>
