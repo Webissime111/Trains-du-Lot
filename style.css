@@ -6,6 +6,18 @@ h1, h2  {
   font-family: 'Train One', cursive;
 }
 
+@media screen and (max-height: 750px) and (orientation: landscape) { 
+  .header-title-sm-landscape {
+    position: fixed;
+    top: 8px;
+    width: 50%;
+    z-index: 9;
+  }
+  .header-img-cache {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 992px) {
   
   .aside-fixed  {
