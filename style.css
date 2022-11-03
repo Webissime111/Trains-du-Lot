@@ -6,7 +6,7 @@ h1, h2  {
   font-family: 'Train One', cursive;
 }
 
-@media screen and (max-height: 750px) and (orientation: landscape) { 
+@media screen and (max-height: 750px) and (max-width:992px) and (orientation: landscape) { 
   .header-title-sm-landscape {
     position: fixed;
     top: 8px;
